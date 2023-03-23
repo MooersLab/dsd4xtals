@@ -60,15 +60,14 @@ In my lab, we use the longest length of the longest crystal.
 This crystal is the one that is most apt to be cryo protected successfully.
 
 
-
+<p align="center"><img src="images/Scoresheet.png" style="min-width: 110px;"></p>
 
 
 
 Alternatively, a 21-level scoring system can be used.
 An example is shown below and is included in the spreadsheets.
 
-Scores
-<p align="center"><img src="images/composite1.png" style="width: 90vw; min-width: 110px;"></p>
+<p align="center"><img src="images/scores.png" style="width: 90vw; min-width: 110px;"></p>
 
 
 The spreadsheets are named according to the following key: 
