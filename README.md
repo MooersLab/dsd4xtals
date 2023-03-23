@@ -67,7 +67,7 @@ We record this information in a scoresheet (see below) by date.
 Alternatively, a 21-level scoring system can be used.
 An example is shown below and is included in the spreadsheets.
 
-<p align="center"><img src="images/Scores.png" style="width: 90vw; min-width: 110px;"></p>
+<p align="center"><img src="images/Scores.png" style="min-width: 110px;"></p>
 
 
 The spreadsheets are named according to the following key: 
