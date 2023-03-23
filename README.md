@@ -10,6 +10,9 @@ These spreadsheets ease applying DSDs in laboratory experiments.
 These spreadsheets could also be adapted to other kinds of laboratory and field experiments.
 Please post an issue if you need a design with a configuration of runs that differs from a 4 x 6 array.
 
+<p align="center"><img src="images/composite1.png" style="width: 90vw; min-width: 330px;"></p>
+
+
 ## Why DSDs?
 
 DSDs are efficient designs for identifying the important experimental factors that influence crystal size and for identifying other factors that have no or little influence.
@@ -19,6 +22,8 @@ DSDs are part of a class of experimental designs called screening designs that i
 Despite their name, these screening designs are generally too small to adequately sample crystallization space.
 Instead, we foresee DSDs being used after crystal leads have been found by using sparse matrix crystallization screens or prior knowledge of the crystallization of closely related proteins.
 The reduction in the number of factors to the vital few makes more efficient use of material and time during subsequent experiments that optimize the levels of each vital factor to find the combination of factor levels that lead to the largest crystals.
+
+
 
 ## Contents of design library
 
