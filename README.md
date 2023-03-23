@@ -36,7 +36,7 @@ There is one spreadsheet per design.
 The user enters the names of the factors, their central factor level, and the delta for setting the low and high levels to be tested.
 The user also enters the stock concentrations for chemical components; the spreadsheet autogenerates the volumes of each stock solution and of water to be added to the crystallization solution.
 
-Figure of factor level entry
+<p align="center"><img src="images/FactorLevelInput.png" style="width: 90vw; min-width: 110px;"></p>
 
 A specific combination of factor levels are assigned to a particular crystallization well (an experimental `run' or `treatment' ) through the design matrix.
 The design matrix is represented by the columns of codings.
@@ -45,6 +45,7 @@ It is best to minimize the number of categorical variables because their presenc
 
 
 Figure of codings and factor levels
+<p align="center"><img src="images/FactorLevelInput.png" style="width: 90vw; min-width: 110px;"></p>
 
 The assignment of the runs to the wells should be randomized upon each new use of the experimental design. 
 Instructions are include in the spreadsheet on how to randomize the assignment of the runs to the wells.
@@ -52,12 +53,23 @@ There is a column of random numbers that are used to randomize the assignment of
 After the rows are sorted based on the random numbers, a new set of random numbers is automatically generated and are ready for use in another round of randomization.
 
 Figure of wells
+<p align="center"><img src="images/composite1.png" style="width: 90vw; min-width: 110px;"></p>
 
 The results response that we seek to maximize is crystal size.
 In my lab, we use the longest length of the longest crystal.
 This crystal is the one that is most apt to be cryo protected successfully.
+
+
+
+
+
+
 Alternatively, a 21-level scoring system can be used.
 An example is shown below and is included in the spreadsheets.
+
+Scores
+<p align="center"><img src="images/composite1.png" style="width: 90vw; min-width: 110px;"></p>
+
 
 The spreadsheets are named according to the following key: 
 
