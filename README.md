@@ -45,7 +45,7 @@ It is best to minimize the number of categorical variables because their presenc
 
 
 Figure of codings and factor levels
-<p align="center"><img src="images/codings.png" style="width: 90vw; min-width: 110px;"></p>
+<p align="center"><img src="images/codings.png" style="min-width: 110px;"></p>
 
 The assignment of the runs to the wells should be randomized upon each new use of the experimental design. 
 Instructions are include in the spreadsheet on how to randomize the assignment of the runs to the wells.
@@ -53,7 +53,7 @@ There is a column of random numbers that are used to randomize the assignment of
 After the rows are sorted based on the random numbers, a new set of random numbers is automatically generated and are ready for use in another round of randomization.
 
 Figure of wells
-<p align="center"><img src="images/composite1.png" style="width: 90vw; min-width: 110px;"></p>
+<p align="center"><img src="images/wellsA.png" style="width: 90vw; min-width: 110px;"></p>
 
 The results response that we seek to maximize is crystal size.
 In my lab, we use the longest length of the longest crystal.
