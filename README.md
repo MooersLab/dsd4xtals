@@ -36,7 +36,7 @@ There is one spreadsheet per design.
 The user enters the names of the factors, their central factor level, and the delta for setting the low and high levels to be tested.
 The user also enters the stock concentrations for chemical components; the spreadsheet autogenerates the volumes of each stock solution and of water to be added to the crystallization solution.
 
-<p align="center"><img src="images/FactorLevelInput.png" style="width: 90vw; min-width: 110px;"></p>
+<p align="center"><img src="images/FactorLevelInput.png" style="min-width: 110px;"></p>
 
 A specific combination of factor levels are assigned to a particular crystallization well (an experimental `run' or `treatment' ) through the design matrix.
 The design matrix is represented by the columns of codings.
