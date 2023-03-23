@@ -45,7 +45,7 @@ It is best to minimize the number of categorical variables because their presenc
 
 
 Figure of codings and factor levels
-<p align="center"><img src="images/FactorLevelInput.png" style="width: 90vw; min-width: 110px;"></p>
+<p align="center"><img src="images/codings.png" style="width: 90vw; min-width: 110px;"></p>
 
 The assignment of the runs to the wells should be randomized upon each new use of the experimental design. 
 Instructions are include in the spreadsheet on how to randomize the assignment of the runs to the wells.
