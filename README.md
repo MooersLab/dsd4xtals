@@ -90,8 +90,9 @@ These analysis tools are available through the R package `rsm` by Lenth (2009).
 
 ## Sources of funding
 
-- NIH: R01 CA242845, R01 AI088011, P20 GM103640, P30 CA225520, P30 AG050911-07S1 
-- OCAST: HR20-002; 
+- NIH: R01 CA242845, R01 AI088011; P30 CA225520 (PI: R. Mannel); P20GM103640 and P30GM145423 (PI: A. West)
+- OCAST HR20-002
+- PHF Team Science Grant 
 
 ## References
 Jones, B. and Nachtsheim, C. J. (2011) A Class of Three-Level Designs for Definitive Screening in the Presence of Second-Order Effects. Journal of Quality Technology, 43, 1-15.
