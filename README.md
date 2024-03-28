@@ -1,24 +1,28 @@
+![Version](https://img.shields.io/static/v1?label=dsd4xtals&message=0.1&color=brightcolor)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+
 # dsd4xtals: Crystal improvement with Definitive Screening Designs (DSDs)
 
 ## Purpose
 This repository contains Excel spreadsheets for applying Definitive Screening Designs (DSDs) to the size optimization of crystals of biological macromolecules (proteins and nucleic acids).
-DSDs were developed by Bradley Jones and Christopher Nachtscheim ([Jones and Nachtscheim 2011](https://doi.org/10.1080/00224065.2011.11917841)).
-Crystal size is generally proportional to the diffraction power of the crystal--provided that the crystal is not internally disordered and that the crystal was properly cryoprotected.
-Crystallographers seek large crystals so that they can obtain high resolution data for high quality structures.
+Bradley Jones and Christopher Nachtscheim developed DSDs ([Jones and Nachtscheim 2011](https://doi.org/10.1080/00224065.2011.11917841)).
+Crystal size is generally proportional to its diffraction power, provided that the crystal is not internally disordered and that it was properly cryoprotected.
+Crystallographers seek large crystals to obtain high-resolution data for high-quality structures.
 It takes about 3 minutes to edit a spreadsheet to customize it for a new crystallization experiment.
 These spreadsheets ease applying DSDs in laboratory experiments.
-These spreadsheets could also be adapted to other kinds of laboratory and field experiments.
-Please post an issue if you need a design with a configuration of runs that differs from a 4 x 6 array.
+These spreadsheets could also be adapted to other laboratory and field experiments.
+Please post an issue if you need a design with a run configuration that differs from a 4 x 6 array.
 
 <p align="center"><img src="images/composite1.png" style="width: 90vw; min-width: 330px;"></p>
 
 
 ## Why DSDs?
 
-DSDs are efficient designs for identifying the important experimental factors that influence crystal size and for identifying other factors that have no or little influence.
+DSDs are efficient designs for identifying the critical experimental factors that influence crystal size and for identifying other factors that have no or little influence.
 These designs are orthogonal and can detect the main effects and quadratic effects. 
-These designs cannot detect higher order interactions. 
-DSDs are part of a class of experimental designs called screening designs that include the widely known fractional factorial designs.
+These designs cannot detect higher-order interactions. 
+DSDs are part of a class of experimental screening designs, including the widely known fractional factorial designs.
 Despite their name, these screening designs are generally too small to adequately sample crystallization space.
 Instead, we foresee DSDs being used after crystal leads have been found by using sparse matrix crystallization screens or prior knowledge of the crystallization of closely related proteins.
 The reduction in the number of factors to the vital few makes more efficient use of material and time during subsequent experiments that optimize the levels of each vital factor to find the combination of factor levels that lead to the largest crystals.
@@ -28,11 +32,11 @@ The reduction in the number of factors to the vital few makes more efficient use
 
 This first set of designs is limited to testing three to 11 factors.
 These designs can fit in a 24-well crystallization tray format.
-We plan to make designs for 96-well format for use with liquid handling robots and crystallization robots.
-Robots have the advantages of reduced experimental error due to more precise liquid handling.
+We plan to make designs for a 96-well format for use with liquid handling robots and crystallization robots.
+Robots have the advantage of reduced experimental error due to more precise liquid handling.
 
 There is one spreadsheet per design.
-The user enters the names of the factors, their central factor level, and the delta for setting the low and high levels to be tested.
+The user enters the factors' names, their central factor level, and the delta to set the low and high levels to be tested.
 The user also enters the stock concentrations for chemical components; the spreadsheet autogenerates the volumes of each stock solution and of water to be added to the crystallization solution.
 
 <p align="center"><img src="images/FactorLevelInput.png" style="min-width: 110px;"></p>
@@ -47,16 +51,16 @@ It is best to minimize the number of categorical variables because their presenc
 <p align="center"><img src="images/codings.png" style="min-width: 110px;"></p>
 
 The assignment of the runs to the wells (see below) should be randomized upon each new use of the experimental design. 
-Instructions are include in the spreadsheet on how to randomize the assignment of the runs to the wells.
+Instructions are included in the spreadsheet on randomizing the runs' assignment to the wells.
 There is a column of random numbers that are used to randomize the assignment of treatments to wells.
-After the rows are sorted based on the random numbers, a new set of random numbers is automatically generated and are ready for use in another round of randomization.
+After the rows are sorted based on the random numbers, a new set of random numbers is automatically generated and ready for use in another round of randomization.
 
 
 <p align="center"><img src="images/wellsA.png" style="width: 90vw; min-width: 110px;"></p>
 
 The results response that we seek to maximize is crystal size.
-In my lab, we use the longest length of the longest crystal.
-This crystal is the one that is most apt to be cryo protected successfully.
+In my lab, we use the most extended length of the longest crystal.
+This crystal is the one that is most apt to be cryo-protected successfully.
 We record this information in a scoresheet (see below) by date.
 
 
