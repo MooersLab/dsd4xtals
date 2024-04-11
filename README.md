@@ -1,4 +1,4 @@
-![Version](https://img.shields.io/static/v1?label=dsd4xtals&message=0.1&color=brightcolor)
+![Version](https://img.shields.io/static/v1?label=dsd4xtals&message=0.2&color=brightcolor)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 
@@ -7,7 +7,7 @@
 ## Purpose
 This repository contains Excel spreadsheets for applying Definitive Screening Designs (DSDs) to the size optimization of crystals of biological macromolecules (proteins and nucleic acids).
 Bradley Jones and Christopher Nachtscheim developed DSDs ([Jones and Nachtscheim 2011](https://doi.org/10.1080/00224065.2011.11917841)).
-Crystal size is generally proportional to its diffraction power, provided the crystal is not internally disordered and was properly cryoprotected.
+Crystal size is generally proportional to its diffraction power, provided it is not internally disordered and is properly cryoprotected.
 Crystallographers seek large crystals to obtain high-resolution data for high-quality structures.
 It takes about 3 minutes to edit a spreadsheet to customize it for a new crystallization experiment.
 These spreadsheets ease applying DSDs in laboratory experiments.
@@ -23,9 +23,10 @@ DSDs are efficient designs for identifying the critical experimental factors tha
 These designs are orthogonal and can detect the main effects and quadratic effects. 
 These designs cannot detect higher-order interactions. 
 DSDs are part of experimental screening designs, including the widely known fractional factorial designs.
-Despite their name, these screening designs need to be bigger to adequately sample crystallization space.
+Despite their name, these screening designs must be bigger to sample crystallization space adequately.
 Instead, we foresee DSDs being used after crystal leads have been found using sparse matrix crystallization screens or prior knowledge of the crystallization of closely related proteins.
-The reduction in the number of factors to the vital few makes more efficient use of material and time during subsequent experiments, which optimize the levels of each vital factor to find the combination of factor levels that leads to the largest crystals.
+Reducing the number of factors to the vital few makes more efficient use of material and time during subsequent experiments.
+These follow-up experiments optimize the levels of each vital factor to find the combination of factor levels that leads to the largest crystals.
 
 
 ## Contents of design library
@@ -91,16 +92,21 @@ These linear models can be applied using the response surface methodology.
 These analysis tools are available through the R package `rsm` by Lenth (2009).
 
 
-
-## Sources of funding
-
-- NIH: R01 CA242845, R01 AI088011; P30 CA225520 (PI: R. Mannel); P20GM103640 and P30GM145423 (PI: A. West)
-- OCAST HR20-002
-- PHF Team Science Grant 
-
 ## References
 Jones, B. and Nachtsheim, C. J. (2011) A Class of Three-Level Designs for Definitive Screening in the Presence of Second-Order Effects. Journal of Quality Technology, 43, 1-15.
 
 Lenth, R.V. (2009) Response-Surface Methods in R, using rsm. Journal of Statistical Software, 32, 1–17.
 
+## Update History
 
+|Version      | Changes                                         | Date                 |
+|:-----------:|:-----------------------------------------------:|:--------------------:|
+| Version 0.2 |  Fixed typos in README.md                       | 2024 April 10        |
+
+
+## Sources of funding
+
+- NIH: R01 CA242845
+- NIH: R01 AI088011
+- NIH: P30 CA225520 (PI: R. Mannel)
+- NIH P20GM103640 and P30GM145423 (PI: A. West)
